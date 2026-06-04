@@ -1,0 +1,7 @@
+status_id,status,min_aqi,max_aqi,description
+1,Good,0,50,Air quality is satisfactory; poses little or no risk.
+2,Satisfactory,51,100,Minor breathing discomfort for sensitive people.
+3,Moderate,101,200,May cause breathing discomfort to sensitive people.
+4,Poor,201,300,Breathing discomfort to most people on prolonged exposure.
+5,Very Poor,301,400,May cause respiratory illness on prolonged exposure.
+6,Severe,401,500,Affects healthy people and seriously impacts sensitive groups.

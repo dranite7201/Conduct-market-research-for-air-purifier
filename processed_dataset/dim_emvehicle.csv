@@ -1,0 +1,334 @@
+vehicle_id,class,vehicle,fuel,CO2,CO,NOX,PM,HC,notes
+1,Bus,BUS,DIESEL,708.27,1.06,7.64,0.01,0.1,"Real-world data for BS-VI Diesel Bus.[1, 2, 3]"
+2,Bus,BUS,CNG ONLY,632.57,9.22,15.16,0.023,7.8,"Based on BS-III data for HCV CNG Bus.[4, 5]"
+3,Bus,BUS,ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+4,Bus,BUS,PETROL,750,4,0.46,0.01,0.16,"Estimated based on BS-VI HDV Positive Ignition (PI) limits (g/kWh converted).[6, 7, 8]"
+5,Bus,BUS,FUEL CELL HYDROGEN,0,0,0,0,0,Zero tailpipe emissions.
+6,Bus,BUS,PETROL/CNG,650,8.5,14,0.02,7,"Estimated based on CNG values, with slight adjustment for bi-fuel system."
+7,Bus,BUS,PETROL/HYBRID,600,3.2,0.37,0.008,0.13,Estimated as 20% reduction from Petrol Bus values due to hybrid powertrain.
+8,Bus,BUS,NOT APPLICABLE,0,0,0,0,0,Not an applicable fuel type.
+9,Bus,OMNI BUS,DIESEL,708.27,1.06,7.64,0.01,0.1,"Same as BUS, real-world data for BS-VI Diesel Bus.[1, 2, 3]"
+10,Bus,OMNI BUS,CNG ONLY,632.57,9.22,15.16,0.023,7.8,"Same as BUS, based on BS-III data for HCV CNG Bus.[4, 5]"
+11,Bus,OMNI BUS,PETROL,750,4,0.46,0.01,0.16,"Same as BUS, estimated from BS-VI HDV PI limits.[6, 7, 8]"
+12,Bus,OMNI BUS,PETROL/ETHANOL,735,3.2,0.46,0.01,0.13,"Estimated ~20% CO/HC reduction from Petrol Bus due to ethanol blend.[9, 10, 11, 12, 13]"
+13,Bus,OMNI BUS,ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+14,Bus,OMNI BUS (PRIVATE USE),CNG ONLY,632.57,9.22,15.16,0.023,7.8,"Assumed same as OMNI BUS CNG.[4, 5]"
+15,Bus,OMNI BUS (PRIVATE USE),DIESEL,708.27,1.06,7.64,0.01,0.1,"Assumed same as OMNI BUS DIESEL.[1, 2, 3]"
+16,Bus,OMNI BUS (PRIVATE USE),PETROL,750,4,0.46,0.01,0.16,"Assumed same as OMNI BUS PETROL.[6, 7, 8]"
+17,Bus,OMNI BUS (PRIVATE USE),PETROL/ETHANOL,735,3.2,0.46,0.01,0.13,"Assumed same as OMNI BUS PETROL/ETHANOL.[9, 10, 11, 12, 13]"
+18,Bus,OMNI BUS (PRIVATE USE),PETROL/HYBRID,600,3.2,0.37,0.008,0.13,Estimated as 20% reduction from Petrol Bus values.
+19,Bus,OMNI BUS (PRIVATE USE),DIESEL/HYBRID,566.6,0.85,6.11,0.008,0.08,Estimated as 20% reduction from Diesel Bus values.
+20,Bus,OMNI BUS (PRIVATE USE),NOT APPLICABLE,0,0,0,0,0,Not an applicable fuel type.
+21,Bus,OMNI BUS (PRIVATE USE),PETROL/CNG,650,8.5,14,0.02,7,Assumed same as BUS PETROL/CNG.
+22,Bus,OMNI BUS (PRIVATE USE),PETROL/LPG,700,3.5,0.5,0.008,0.2,"Estimated based on Petrol Bus values with adjustments for LPG.[14, 15, 16, 17, 12, 18]"
+23,Bus,OMNI BUS (PRIVATE USE),ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+24,Bus,SCHOOL BUS,DIESEL,708.27,1.06,7.64,0.01,0.1,"Assumed same as BUS DIESEL.[1, 2, 3]"
+25,Bus,SCHOOL BUS,CNG ONLY,632.57,9.22,15.16,0.023,7.8,"Assumed same as BUS CNG.[4, 5]"
+26,Bus,EDUCATIONAL INSTITUTION BUS,DIESEL,708.27,1.06,7.64,0.01,0.1,"Assumed same as BUS DIESEL.[1, 2, 3]"
+27,Bus,EDUCATIONAL INSTITUTION BUS,CNG ONLY,632.57,9.22,15.16,0.023,7.8,"Assumed same as BUS CNG.[4, 5]"
+28,Bus,EDUCATIONAL INSTITUTION BUS,PETROL,750,4,0.46,0.01,0.16,"Assumed same as BUS PETROL.[6, 7, 8]"
+29,Bus,EDUCATIONAL INSTITUTION BUS,PETROL/CNG,650,8.5,14,0.02,7,Assumed same as BUS PETROL/CNG.
+30,Bus,EDUCATIONAL INSTITUTION BUS,PETROL/ETHANOL,735,3.2,0.46,0.01,0.13,"Assumed same as OMNI BUS PETROL/ETHANOL.[9, 10, 11, 12, 13]"
+31,Bus,EDUCATIONAL INSTITUTION BUS,ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+32,Bus,PRIVATE SERVICE VEHICLE,DIESEL,708.27,1.06,7.64,0.01,0.1,"Assumed same as BUS DIESEL.[1, 2, 3]"
+33,Bus,PRIVATE SERVICE VEHICLE,PETROL,750,4,0.46,0.01,0.16,"Assumed same as BUS PETROL.[6, 7, 8]"
+34,Bus,PRIVATE SERVICE VEHICLE,PETROL/ETHANOL,735,3.2,0.46,0.01,0.13,"Assumed same as OMNI BUS PETROL/ETHANOL.[9, 10, 11, 12, 13]"
+35,Bus,PRIVATE SERVICE VEHICLE,CNG ONLY,632.57,9.22,15.16,0.023,7.8,"Assumed same as BUS CNG.[4, 5]"
+36,Bus,PRIVATE SERVICE VEHICLE,PETROL/HYBRID,600,3.2,0.37,0.008,0.13,Assumed same as BUS PETROL/HYBRID.
+37,Bus,PRIVATE SERVICE VEHICLE,ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+38,Bus,PRIVATE SERVICE VEHICLE,DIESEL/HYBRID,566.6,0.85,6.11,0.008,0.08,Assumed same as OMNI BUS DIESEL/HYBRID.
+39,Bus,PRIVATE SERVICE VEHICLE,PETROL/CNG,650,8.5,14,0.02,7,Assumed same as BUS PETROL/CNG.
+40,Bus,PRIVATE SERVICE VEHICLE (INDIVIDUAL USE),DIESEL,708.27,1.06,7.64,0.01,0.1,"Assumed same as BUS DIESEL.[1, 2, 3]"
+41,Bus,PRIVATE SERVICE VEHICLE (INDIVIDUAL USE),PETROL,750,4,0.46,0.01,0.16,"Assumed same as BUS PETROL.[6, 7, 8]"
+42,Bus,PRIVATE SERVICE VEHICLE (INDIVIDUAL USE),PETROL/ETHANOL,735,3.2,0.46,0.01,0.13,"Assumed same as OMNI BUS PETROL/ETHANOL.[9, 10, 11, 12, 13]"
+43,Bus,PRIVATE SERVICE VEHICLE (INDIVIDUAL USE),PETROL/HYBRID,600,3.2,0.37,0.008,0.13,Assumed same as BUS PETROL/HYBRID.
+44,Bus,PRIVATE SERVICE VEHICLE (INDIVIDUAL USE),CNG ONLY,632.57,9.22,15.16,0.023,7.8,"Assumed same as BUS CNG.[4, 5]"
+45,Bus,PRIVATE SERVICE VEHICLE (INDIVIDUAL USE),PETROL/CNG,650,8.5,14,0.02,7,Assumed same as BUS PETROL/CNG.
+46,Bus,PRIVATE SERVICE VEHICLE (INDIVIDUAL USE),DIESEL/HYBRID,566.6,0.85,6.11,0.008,0.08,Assumed same as OMNI BUS DIESEL/HYBRID.
+47,Bus,PRIVATE SERVICE VEHICLE (INDIVIDUAL USE),ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+48,Taxi & Cab,MOTOR CAB,DIESEL,139.86,0.5,0.1615,0.0045,0.0085,"BS-VI Light-Duty Vehicle (LDV) Diesel limit.[19, 20, 21, 22, 23, 24, 25]"
+49,Taxi & Cab,MOTOR CAB,PETROL,113.79,1,0.06,0.0045,0.1,"BS-VI LDV Petrol limit.[19, 20, 21, 22, 23, 24, 25]"
+50,Taxi & Cab,MOTOR CAB,PETROL/HYBRID,91.03,0.8,0.05,0.004,0.08,Estimated as 20% reduction from Petrol Motor Cab.
+51,Taxi & Cab,MOTOR CAB,PETROL/CNG,101.59,1.02,0.03,0.001,0.19,"Based on BS-IV data for CNG Passenger Car.[4, 5]"
+52,Taxi & Cab,MOTOR CAB,PETROL/ETHANOL,111.5,0.8,0.06,0.0045,0.08,"Estimated ~20% CO/HC reduction from Petrol Motor Cab.[9, 10, 11, 12, 13]"
+53,Taxi & Cab,MOTOR CAB,ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+54,Taxi & Cab,MOTOR CAB,DIESEL/HYBRID,111.89,0.4,0.133,0.004,0.007,Estimated as 20% reduction from Diesel Motor Cab.
+55,Taxi & Cab,MOTOR CAB,CNG ONLY,101.59,1.02,0.03,0.001,0.19,"Based on BS-IV data for CNG Passenger Car.[4, 5]"
+56,Taxi & Cab,MOTOR CAB,PETROL/LPG,138,1.5,0.1,0.005,0.15,"Estimated based on BS-III LPG data and petrol values.[26, 14, 15, 16, 17, 12, 18]"
+57,Taxi & Cab,MOTOR CAB,NOT APPLICABLE,0,0,0,0,0,Not an applicable fuel type.
+58,Taxi & Cab,MOTOR CAB,LPG ONLY,138,1.5,0.1,0.005,0.15,"Estimated based on BS-III LPG data.[26, 14, 15, 16, 17, 12, 18]"
+59,Taxi & Cab,MAXI CAB,DIESEL,222.29,0.47,0.48,0.049,0.05,"Based on BS-IV data for MUV Diesel.[4, 5]"
+60,Taxi & Cab,MAXI CAB,CNG ONLY,132.74,1.34,0.41,0.002,0.43,"Based on BS-IV data for MUV CNG.[4, 5]"
+61,Taxi & Cab,MAXI CAB,PETROL,213,1,0.08,0.0045,0.1,Estimated based on MUV category and BS-VI petrol limits.
+62,Taxi & Cab,MAXI CAB,PETROL/ETHANOL,208,0.8,0.08,0.0045,0.08,"Estimated ~20% CO/HC reduction from Petrol Maxi Cab.[9, 10, 11, 12, 13]"
+63,Taxi & Cab,MAXI CAB,PETROL/HYBRID,170.4,0.8,0.06,0.004,0.08,Estimated as 20% reduction from Petrol Maxi Cab.
+64,Taxi & Cab,MAXI CAB,PETROL/CNG,132.74,1.34,0.41,0.002,0.43,"Assumed same as CNG ONLY Maxi Cab.[4, 5]"
+65,Taxi & Cab,MAXI CAB,ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+66,Taxi & Cab,MAXI CAB,PETROL/LPG,190,1.5,0.1,0.005,0.15,"Estimated based on Petrol Maxi Cab values with adjustments for LPG.[14, 15, 16, 17, 12, 18]"
+67,Taxi & Cab,MAXI CAB,DIESEL/HYBRID,177.83,0.38,0.38,0.039,0.04,Estimated as 20% reduction from Diesel Maxi Cab.
+68,Taxi & Cab,MAXI CAB,NOT APPLICABLE,0,0,0,0,0,Not an applicable fuel type.
+69,Taxi & Cab,LUXURY CAB,PETROL,113.79,1,0.06,0.0045,0.1,"Assumed same as Motor Cab (BS-VI LDV Petrol).[19, 20, 21, 22, 23, 24, 25]"
+70,Taxi & Cab,LUXURY CAB,PETROL/HYBRID,91.03,0.8,0.05,0.004,0.08,Assumed same as Motor Cab PETROL/HYBRID.
+71,Taxi & Cab,LUXURY CAB,DIESEL,139.86,0.5,0.1615,0.0045,0.0085,"Assumed same as Motor Cab (BS-VI LDV Diesel).[19, 20, 21, 22, 23, 24, 25]"
+72,Taxi & Cab,LUXURY CAB,PETROL/CNG,101.59,1.02,0.03,0.001,0.19,"Assumed same as Motor Cab PETROL/CNG.[4, 5]"
+73,Taxi & Cab,LUXURY CAB,PETROL/ETHANOL,111.5,0.8,0.06,0.0045,0.08,"Assumed same as Motor Cab PETROL/ETHANOL.[9, 10, 11, 12, 13]"
+74,Taxi & Cab,LUXURY CAB,ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+75,Taxi & Cab,LUXURY CAB,DIESEL/HYBRID,111.89,0.4,0.133,0.004,0.007,Assumed same as Motor Cab DIESEL/HYBRID.
+76,Taxi & Cab,LUXURY CAB,NOT APPLICABLE,0,0,0,0,0,Not an applicable fuel type.
+77,Motorcycle & Scooter,M-CYCLE/SCOOTER,ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+78,Motorcycle & Scooter,M-CYCLE/SCOOTER,PETROL,41.2,1,0.06,0.0045,0.1,"Fleet average CO₂ [27] and BS-VI limits for 2W.[28, 29, 30, 31]"
+79,Motorcycle & Scooter,M-CYCLE/SCOOTER,PETROL/ETHANOL,40,0.8,0.06,0.0045,0.08,"Estimated ~20% CO/HC reduction from Petrol 2W for ethanol blend.[9, 10, 11, 12, 13]"
+80,Motorcycle & Scooter,M-CYCLE/SCOOTER,CNG ONLY,38,1.2,0.07,0.001,0.15,Estimated based on petrol values with adjustments for CNG.
+81,Motorcycle & Scooter,M-CYCLE/SCOOTER,ETHANOL,39,0.7,0.07,0.0045,0.07,Estimated based on high-blend ethanol data.
+82,Motorcycle & Scooter,M-CYCLE/SCOOTER,DIESEL,50,0.5,0.09,0.0045,0.1,Estimated based on BS-VI 2W CI limits.
+83,Motorcycle & Scooter,M-CYCLE/SCOOTER,NOT APPLICABLE,0,0,0,0,0,Not an applicable fuel type.
+84,Motorcycle & Scooter,M-CYCLE/SCOOTER,PETROL/CNG,38,1.2,0.07,0.001,0.15,Assumed same as CNG ONLY M-CYCLE/SCOOTER.
+85,Motorcycle & Scooter,M-CYCLE/SCOOTER,PETROL/LPG,39,1.3,0.07,0.002,0.16,"Estimated based on petrol values with adjustments for LPG.[14, 15, 16, 17, 12, 18]"
+86,Motorcycle & Scooter,MOPED,PETROL,35,0.5,0.15,0.0045,0.35,Estimated based on BS-VI limits for low power 2W.[30]
+87,Motorcycle & Scooter,MOPED,ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+88,Motorcycle & Scooter,MOPED,PETROL/ETHANOL,34,0.4,0.15,0.0045,0.28,"Estimated ~20% CO/HC reduction from Petrol Moped.[9, 10, 11, 12, 13]"
+89,Motorcycle & Scooter,MOPED,CNG ONLY,32,0.6,0.16,0.001,0.4,Estimated based on petrol values with adjustments for CNG.
+90,Motorcycle & Scooter,MOTORISED CYCLE (CC > 25CC),CNG ONLY,38,1.2,0.07,0.001,0.15,Assumed same as M-CYCLE/SCOOTER CNG.
+91,Motorcycle & Scooter,MOTORISED CYCLE (CC > 25CC),ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+92,Motorcycle & Scooter,MOTORISED CYCLE (CC > 25CC),PETROL,41.2,1,0.06,0.0045,0.1,"Assumed same as M-CYCLE/SCOOTER PETROL.[28, 29, 30, 31]"
+93,Motorcycle & Scooter,MOTORISED CYCLE (CC > 25CC),PETROL/ETHANOL,40,0.8,0.06,0.0045,0.08,"Assumed same as M-CYCLE/SCOOTER PETROL/ETHANOL.[9, 10, 11, 12, 13]"
+94,Motorcycle & Scooter,MOTORISED CYCLE (CC > 25CC),ETHANOL,39,0.7,0.07,0.0045,0.07,Assumed same as M-CYCLE/SCOOTER ETHANOL.
+95,Motorcycle & Scooter,M-CYCLE/SCOOTER-WITH SIDE CAR,ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+96,Motorcycle & Scooter,M-CYCLE/SCOOTER-WITH SIDE CAR,PETROL,45,1.1,0.07,0.0045,0.11,Estimated slight increase from standard 2W due to weight.
+97,Motorcycle & Scooter,M-CYCLE/SCOOTER-WITH SIDE CAR,PETROL/ETHANOL,44,0.9,0.07,0.0045,0.09,Estimated based on Side Car Petrol values.
+98,Motorcycle & Scooter,M-CYCLE/SCOOTER-WITH SIDE CAR,CNG ONLY,42,1.3,0.08,0.001,0.16,Estimated based on Side Car Petrol values.
+99,Motorcycle & Scooter,MOTOR CYCLE/SCOOTER-SIDECAR(T),CNG ONLY,42,1.3,0.08,0.001,0.16,Assumed same as private Side Car CNG.
+100,Motorcycle & Scooter,MOTOR CYCLE/SCOOTER-SIDECAR(T),PETROL,45,1.1,0.07,0.0045,0.11,Assumed same as private Side Car Petrol.
+101,Motorcycle & Scooter,MOTOR CYCLE/SCOOTER-SIDECAR(T),ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+102,Motorcycle & Scooter,MOTOR CYCLE/SCOOTER-SIDECAR(T),PETROL/ETHANOL,44,0.9,0.07,0.0045,0.09,Assumed same as private Side Car Petrol/Ethanol.
+103,Motorcycle & Scooter,MOTOR CYCLE/SCOOTER-WITH TRAILER,ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+104,Motorcycle & Scooter,MOTOR CYCLE/SCOOTER-WITH TRAILER,PETROL,48,1.2,0.08,0.0045,0.12,Estimated slight increase from Side Car due to load.
+105,Motorcycle & Scooter,MOTOR CYCLE/SCOOTER-USED FOR HIRE,PETROL,41.2,1,0.06,0.0045,0.1,"Assumed same as private M-CYCLE/SCOOTER PETROL.[28, 29, 30, 31]"
+106,Motorcycle & Scooter,MOTOR CYCLE/SCOOTER-USED FOR HIRE,CNG ONLY,38,1.2,0.07,0.001,0.15,Assumed same as private M-CYCLE/SCOOTER CNG.
+107,Motorcycle & Scooter,MOTOR CYCLE/SCOOTER-USED FOR HIRE,PETROL/ETHANOL,40,0.8,0.06,0.0045,0.08,"Assumed same as private M-CYCLE/SCOOTER PETROL/ETHANOL.[9, 10, 11, 12, 13]"
+108,Motorcycle & Scooter,MOTOR CYCLE/SCOOTER-USED FOR HIRE,ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+109,Three & Four-Wheeler,THREE WHEELER (GOODS),DIESEL,132.2,0.22,0.1,0.025,0.1,"Estimated based on BS-VI 3W CI limits & CO₂ data.[26, 30]"
+110,Three & Four-Wheeler,THREE WHEELER (GOODS),CNG ONLY,107.68,0.44,0.085,0.001,0.35,"Estimated based on BS-VI 3W SI limits & CO₂ data.[26, 30]"
+111,Three & Four-Wheeler,THREE WHEELER (GOODS),ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+112,Three & Four-Wheeler,THREE WHEELER (GOODS),PETROL,113.5,0.44,0.085,0.001,0.35,"Estimated based on BS-VI 3W SI limits & CO₂ data.[26, 30]"
+113,Three & Four-Wheeler,THREE WHEELER (GOODS),PETROL/CNG,107.68,0.44,0.085,0.001,0.35,Assumed same as CNG ONLY.
+114,Three & Four-Wheeler,THREE WHEELER (GOODS),NOT APPLICABLE,0,0,0,0,0,Not an applicable fuel type.
+115,Three & Four-Wheeler,THREE WHEELER (GOODS),PETROL/LPG,110,0.5,0.09,0.002,0.4,"Estimated based on petrol values with adjustments for LPG.[14, 15, 16, 17, 12, 18]"
+116,Three & Four-Wheeler,THREE WHEELER (GOODS),LPG ONLY,110,0.5,0.09,0.002,0.4,"Assumed same as PETROL/LPG.[14, 15, 16, 17, 12, 18]"
+117,Three & Four-Wheeler,THREE WHEELER (PASSENGER),PETROL,113.5,0.44,0.085,0.001,0.35,"Estimated based on BS-VI 3W SI limits & CO₂ data.[26, 30]"
+118,Three & Four-Wheeler,THREE WHEELER (PASSENGER),CNG ONLY,107.68,0.44,0.085,0.001,0.35,"Assumed same as THREE WHEELER (GOODS) CNG.[26, 30]"
+119,Three & Four-Wheeler,THREE WHEELER (PASSENGER),DIESEL,132.2,0.22,0.1,0.025,0.1,"Assumed same as THREE WHEELER (GOODS) DIESEL.[26, 30]"
+120,Three & Four-Wheeler,THREE WHEELER (PASSENGER),ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+121,Three & Four-Wheeler,THREE WHEELER (PASSENGER),LPG ONLY,110,0.5,0.09,0.002,0.4,"Assumed same as THREE WHEELER (GOODS) LPG.[14, 15, 16, 17, 12, 18]"
+122,Three & Four-Wheeler,THREE WHEELER (PASSENGER),PETROL/LPG,110,0.5,0.09,0.002,0.4,"Assumed same as LPG ONLY.[14, 15, 16, 17, 12, 18]"
+123,Three & Four-Wheeler,THREE WHEELER (PASSENGER),PETROL/CNG,107.68,0.44,0.085,0.001,0.35,Assumed same as CNG ONLY.
+124,Three & Four-Wheeler,THREE WHEELER (PASSENGER),NOT APPLICABLE,0,0,0,0,0,Not an applicable fuel type.
+125,Three & Four-Wheeler,THREE WHEELER (PERSONAL),CNG ONLY,107.68,0.44,0.085,0.001,0.35,Assumed same as Passenger 3W CNG.
+126,Three & Four-Wheeler,THREE WHEELER (PERSONAL),ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+127,Three & Four-Wheeler,THREE WHEELER (PERSONAL),DIESEL,132.2,0.22,0.1,0.025,0.1,Assumed same as Passenger 3W DIESEL.
+128,Three & Four-Wheeler,THREE WHEELER (PERSONAL),LPG ONLY,110,0.5,0.09,0.002,0.4,Assumed same as Passenger 3W LPG.
+129,Three & Four-Wheeler,THREE WHEELER (PERSONAL),PETROL,113.5,0.44,0.085,0.001,0.35,Assumed same as Passenger 3W PETROL.
+130,Three & Four-Wheeler,THREE WHEELER (PERSONAL),PETROL/ETHANOL,111,0.35,0.085,0.001,0.28,"Estimated ~20% CO/HC reduction from Petrol 3W.[9, 10, 11, 12, 13]"
+131,Three & Four-Wheeler,THREE WHEELER (PERSONAL),PETROL/CNG,107.68,0.44,0.085,0.001,0.35,Assumed same as CNG ONLY.
+132,Three & Four-Wheeler,THREE WHEELER (PERSONAL),PETROL/LPG,110,0.5,0.09,0.002,0.4,Assumed same as LPG ONLY.
+133,Three & Four-Wheeler,E-RICKSHAW WITH CART (G),ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+134,Three & Four-Wheeler,E-RICKSHAW WITH CART (G),NOT APPLICABLE,0,0,0,0,0,Not an applicable fuel type.
+135,Three & Four-Wheeler,E-RICKSHAW WITH CART (G),DIESEL,132.2,0.22,0.1,0.025,0.1,"Data Anomaly: E-Rickshaws are electric. Values for a generic Diesel 3W Goods provided.[26, 30]"
+136,Three & Four-Wheeler,E-RICKSHAW WITH CART (G),CNG ONLY,107.68,0.44,0.085,0.001,0.35,"Data Anomaly: E-Rickshaws are electric. Values for a generic CNG 3W Goods provided.[26, 30]"
+137,Three & Four-Wheeler,E-RICKSHAW WITH CART (G),PETROL/CNG,107.68,0.44,0.085,0.001,0.35,"Data Anomaly: E-Rickshaws are electric. Values for a generic CNG 3W Goods provided.[26, 30]"
+138,Three & Four-Wheeler,E-RICKSHAW(P),ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+139,Three & Four-Wheeler,E-RICKSHAW(P),NOT APPLICABLE,0,0,0,0,0,Not an applicable fuel type.
+140,Three & Four-Wheeler,E-RICKSHAW(P),DIESEL,132.2,0.22,0.1,0.025,0.1,"Data Anomaly: E-Rickshaws are electric. Values for a generic Diesel 3W Passenger provided.[26, 30]"
+141,Three & Four-Wheeler,E-RICKSHAW(P),CNG ONLY,107.68,0.44,0.085,0.001,0.35,"Data Anomaly: E-Rickshaws are electric. Values for a generic CNG 3W Passenger provided.[26, 30]"
+142,Three & Four-Wheeler,E-RICKSHAW(P),PETROL/CNG,107.68,0.44,0.085,0.001,0.35,"Data Anomaly: E-Rickshaws are electric. Values for a generic CNG 3W Passenger provided.[26, 30]"
+143,Three & Four-Wheeler,E-RICKSHAW(P),PETROL,113.5,0.44,0.085,0.001,0.35,"Data Anomaly: E-Rickshaws are electric. Values for a generic Petrol 3W Passenger provided.[26, 30]"
+144,Three & Four-Wheeler,E-RICKSHAW(P),LPG ONLY,110,0.5,0.09,0.002,0.4,"Data Anomaly: E-Rickshaws are electric. Values for a generic LPG 3W Passenger provided.[14, 15, 16, 17, 12, 18]"
+145,Three & Four-Wheeler,QUADRICYCLE (COMMERCIAL),CNG ONLY,101.59,1.02,0.03,0.001,0.19,Assumed same as Motor Cab CNG (BS-VI LDV equivalent).
+146,Three & Four-Wheeler,QUADRICYCLE (COMMERCIAL),LPG ONLY,138,1.5,0.1,0.005,0.15,"Assumed same as Motor Cab LPG (BS-VI LDV equivalent).[26, 14, 15, 16, 17, 12, 18]"
+147,Three & Four-Wheeler,QUADRICYCLE (COMMERCIAL),PETROL,113.79,1,0.06,0.0045,0.1,"Assumed same as Motor Cab Petrol (BS-VI LDV equivalent).[19, 20, 21, 22, 23, 24, 25]"
+148,Three & Four-Wheeler,QUADRICYCLE (PRIVATE),PETROL/HYBRID,91.03,0.8,0.05,0.004,0.08,Assumed same as Motor Cab PETROL/HYBRID.
+149,Three & Four-Wheeler,QUADRICYCLE (PRIVATE),PETROL/CNG,101.59,1.02,0.03,0.001,0.19,"Assumed same as Motor Cab PETROL/CNG.[4, 5]"
+150,Three & Four-Wheeler,QUADRICYCLE (PRIVATE),PETROL,113.79,1,0.06,0.0045,0.1,"Assumed same as Motor Cab Petrol.[19, 20, 21, 22, 23, 24, 25]"
+151,Three & Four-Wheeler,QUADRICYCLE (PRIVATE),CNG ONLY,101.59,1.02,0.03,0.001,0.19,"Assumed same as Motor Cab CNG.[4, 5]"
+152,Car & Recreational Vehicle,MOTOR CAR,DIESEL,139.86,0.5,0.1615,0.0045,0.0085,"BS-VI LDV Diesel limit.[19, 20, 21, 22, 23, 24, 25]"
+153,Car & Recreational Vehicle,MOTOR CAR,PETROL,113.79,1,0.06,0.0045,0.1,"BS-VI LDV Petrol limit.[19, 20, 21, 22, 23, 24, 25]"
+154,Car & Recreational Vehicle,MOTOR CAR,PETROL/ETHANOL,111.5,0.8,0.06,0.0045,0.08,"Estimated ~20% CO/HC reduction from Petrol Car.[9, 10, 11, 12, 13]"
+155,Car & Recreational Vehicle,MOTOR CAR,PETROL/HYBRID,91.03,0.8,0.05,0.004,0.08,Estimated as 20% reduction from Petrol Car.
+156,Car & Recreational Vehicle,MOTOR CAR,ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+157,Car & Recreational Vehicle,MOTOR CAR,DIESEL/HYBRID,111.89,0.4,0.133,0.004,0.007,Estimated as 20% reduction from Diesel Car.
+158,Car & Recreational Vehicle,MOTOR CAR,PETROL/CNG,101.59,1.02,0.03,0.001,0.19,"Based on BS-IV data for CNG Passenger Car.[4, 5]"
+159,Car & Recreational Vehicle,MOTOR CAR,PLUG-IN HYBRID EV,50,0.4,0.03,0.002,0.04,"Estimated as ~60% reduction from Petrol Car, varies with electric range."
+160,Car & Recreational Vehicle,MOTOR CAR,CNG ONLY,101.59,1.02,0.03,0.001,0.19,"Based on BS-IV data for CNG Passenger Car.[4, 5]"
+161,Car & Recreational Vehicle,MOTOR CAR,PETROL/LPG,138,1.5,0.1,0.005,0.15,"Estimated based on BS-III LPG data and petrol values.[26, 14, 15, 16, 17, 12, 18]"
+162,Car & Recreational Vehicle,MOTOR CAR,NOT APPLICABLE,0,0,0,0,0,Not an applicable fuel type.
+163,Car & Recreational Vehicle,MOTOR CAR,LPG ONLY,138,1.5,0.1,0.005,0.15,"Estimated based on BS-III LPG data.[26, 14, 15, 16, 17, 12, 18]"
+164,Car & Recreational Vehicle,CAMPER VAN / TRAILER,DIESEL,222.29,0.47,0.48,0.049,0.05,"Assumed same as MUV Diesel (BS-IV).[4, 5]"
+165,Car & Recreational Vehicle,CAMPER VAN / TRAILER,PETROL,213,1,0.08,0.0045,0.1,Assumed same as MUV Petrol (BS-VI equivalent).
+166,Car & Recreational Vehicle,CAMPER VAN / TRAILER,ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+167,Car & Recreational Vehicle,CAMPER VAN / TRAILER,CNG ONLY,132.74,1.34,0.41,0.002,0.43,"Assumed same as MUV CNG (BS-IV).[4, 5]"
+168,Car & Recreational Vehicle,CAMPER VAN / TRAILER,PETROL/CNG,132.74,1.34,0.41,0.002,0.43,Assumed same as CNG ONLY.
+169,Car & Recreational Vehicle,CAMPER VAN / TRAILER (PRIVATE USE),DIESEL,222.29,0.47,0.48,0.049,0.05,"Assumed same as MUV Diesel (BS-IV).[4, 5]"
+170,Car & Recreational Vehicle,CAMPER VAN / TRAILER (PRIVATE USE),PETROL,213,1,0.08,0.0045,0.1,Assumed same as MUV Petrol (BS-VI equivalent).
+171,Car & Recreational Vehicle,CAMPER VAN / TRAILER (PRIVATE USE),PETROL/HYBRID,170.4,0.8,0.06,0.004,0.08,Estimated as 20% reduction from Petrol Camper Van.
+172,Car & Recreational Vehicle,CAMPER VAN / TRAILER (PRIVATE USE),NOT APPLICABLE,0,0,0,0,0,Not an applicable fuel type.
+173,Car & Recreational Vehicle,CAMPER VAN / TRAILER (PRIVATE USE),CNG ONLY,132.74,1.34,0.41,0.002,0.43,"Assumed same as MUV CNG (BS-IV).[4, 5]"
+174,Car & Recreational Vehicle,CAMPER VAN / TRAILER (PRIVATE USE),PETROL/CNG,132.74,1.34,0.41,0.002,0.43,Assumed same as CNG ONLY.
+175,Car & Recreational Vehicle,MOTOR CARAVAN,ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+176,Car & Recreational Vehicle,MOTOR CARAVAN,DIESEL,222.29,0.47,0.48,0.049,0.05,"Assumed same as MUV Diesel (BS-IV).[4, 5]"
+177,Car & Recreational Vehicle,MOTOR CARAVAN,PETROL,213,1,0.08,0.0045,0.1,Assumed same as MUV Petrol (BS-VI equivalent).
+178,Car & Recreational Vehicle,TRAILER FOR PERSONAL USE,NOT APPLICABLE,0,0,0,0,0,Zero tailpipe emissions. Trailers are non-powered.
+179,Car & Recreational Vehicle,AUXILIARY TRAILER,ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions. Trailers are non-powered; fuel type is a data anomaly.
+180,Car & Recreational Vehicle,AUXILIARY TRAILER,DIESEL,0,0,0,0,0,Zero tailpipe emissions. Trailers are non-powered; fuel type is a data anomaly.
+181,Car & Recreational Vehicle,AUXILIARY TRAILER,NOT APPLICABLE,0,0,0,0,0,Zero tailpipe emissions. Trailers are non-powered.
+182,Goods & Light Commercial Van,GOODS CARRIER,DIESEL,139.86,0.5,0.1615,0.0045,0.0085,"Assumed same as Light-Duty Diesel (BS-VI).[19, 20, 21, 22, 23, 24, 25]"
+183,Goods & Light Commercial Van,GOODS CARRIER,PETROL,113.79,1,0.06,0.0045,0.1,"Assumed same as Light-Duty Petrol (BS-VI).[19, 20, 21, 22, 23, 24, 25]"
+184,Goods & Light Commercial Van,GOODS CARRIER,CNG ONLY,101.59,1.02,0.03,0.001,0.19,"Assumed same as Light-Duty CNG (BS-IV).[4, 5]"
+185,Goods & Light Commercial Van,GOODS CARRIER,ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+186,Goods & Light Commercial Van,GOODS CARRIER,PETROL/CNG,101.59,1.02,0.03,0.001,0.19,Assumed same as CNG ONLY.
+187,Goods & Light Commercial Van,GOODS CARRIER,PETROL/ETHANOL,111.5,0.8,0.06,0.0045,0.08,"Estimated ~20% CO/HC reduction from Petrol LCV.[9, 10, 11, 12, 13]"
+188,Goods & Light Commercial Van,GOODS CARRIER,LNG,100,1.1,0.04,0.001,0.25,Data Anomaly: LNG is for HDVs. Estimated based on CNG values.
+189,Goods & Light Commercial Van,GOODS CARRIER,NOT APPLICABLE,0,0,0,0,0,Not an applicable fuel type.
+190,Goods & Light Commercial Van,GOODS CARRIER,DUAL DIESEL/LNG,120,0.8,0.06,0.003,0.2,Data Anomaly: LNG is for HDVs. Estimated based on Diesel/CNG values.
+191,Goods & Light Commercial Van,GOODS CARRIER,PETROL/LPG,138,1.5,0.1,0.005,0.15,"Assumed same as Light-Duty Petrol/LPG.[26, 14, 15, 16, 17, 12, 18]"
+192,Goods & Light Commercial Van,GOODS CARRIER,SOLAR,0,0,0,0,0,Zero tailpipe emissions.
+193,Goods & Light Commercial Van,GOODS CARRIER,DIESEL/HYBRID,111.89,0.4,0.133,0.004,0.007,Estimated as 20% reduction from Diesel LCV.
+194,Goods & Light Commercial Van,GOODS CARRIER,LPG ONLY,138,1.5,0.1,0.005,0.15,"Assumed same as Light-Duty LPG.[26, 14, 15, 16, 17, 12, 18]"
+195,Goods & Light Commercial Van,CASH VAN,DIESEL,155,0.55,0.171,0.005,0.009,Estimated ~10% increase from LCV due to weight/armoring.
+196,Goods & Light Commercial Van,CASH VAN,CNG ONLY,112,1.1,0.04,0.001,0.21,Estimated ~10% increase from LCV due to weight/armoring.
+197,Goods & Light Commercial Van,CASH VAN,PETROL,125,1.1,0.07,0.005,0.11,Estimated ~10% increase from LCV due to weight/armoring.
+198,Goods & Light Commercial Van,CASH VAN,ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+199,Goods & Light Commercial Van,BREAKDOWN VAN,PETROL,113.79,1,0.06,0.0045,0.1,Assumed same as LCV Petrol.
+200,Goods & Light Commercial Van,BREAKDOWN VAN,DIESEL,139.86,0.5,0.1615,0.0045,0.0085,Assumed same as LCV Diesel.
+201,Goods & Light Commercial Van,BREAKDOWN VAN,CNG ONLY,101.59,1.02,0.03,0.001,0.19,Assumed same as LCV CNG.
+202,Goods & Light Commercial Van,BREAKDOWN VAN,PETROL/CNG,101.59,1.02,0.03,0.001,0.19,Assumed same as CNG ONLY.
+203,Goods & Light Commercial Van,MOBILE WORKSHOP,DIESEL,139.86,0.5,0.1615,0.0045,0.0085,Assumed same as LCV Diesel.
+204,Goods & Light Commercial Van,MOBILE WORKSHOP,PETROL,113.79,1,0.06,0.0045,0.1,Assumed same as LCV Petrol.
+205,Goods & Light Commercial Van,MOBILE WORKSHOP,CNG ONLY,101.59,1.02,0.03,0.001,0.19,Assumed same as LCV CNG.
+206,Goods & Light Commercial Van,MOBILE CANTEEN,DIESEL,139.86,0.5,0.1615,0.0045,0.0085,Assumed same as LCV Diesel.
+207,Goods & Light Commercial Van,MOBILE CANTEEN,PETROL,113.79,1,0.06,0.0045,0.1,Assumed same as LCV Petrol.
+208,Goods & Light Commercial Van,MOBILE CANTEEN,CNG ONLY,101.59,1.02,0.03,0.001,0.19,Assumed same as LCV CNG.
+209,Goods & Light Commercial Van,LIBRARY VAN,DIESEL,139.86,0.5,0.1615,0.0045,0.0085,Assumed same as LCV Diesel.
+210,Goods & Light Commercial Van,LIBRARY VAN,PETROL,113.79,1,0.06,0.0045,0.1,Assumed same as LCV Petrol.
+211,Goods & Light Commercial Van,VEHICLE FITTED WITH COMPRESSOR,DIESEL,139.86,0.5,0.1615,0.0045,0.0085,Assumed same as LCV Diesel.
+212,Goods & Light Commercial Van,VEHICLE FITTED WITH COMPRESSOR,NOT APPLICABLE,0,0,0,0,0,Not an applicable fuel type.
+213,Goods & Light Commercial Van,VEHICLE FITTED WITH GENERATOR,DIESEL,139.86,0.5,0.1615,0.0045,0.0085,Assumed same as LCV Diesel.
+214,Goods & Light Commercial Van,VEHICLE FITTED WITH GENERATOR,NOT APPLICABLE,0,0,0,0,0,Not an applicable fuel type.
+215,Goods & Light Commercial Van,VEHICLE FITTED WITH GENERATOR,PETROL,113.79,1,0.06,0.0045,0.1,Assumed same as LCV Petrol.
+216,Heavy & Articulated Vehicle,ARTICULATED VEHICLE,DIESEL,950,1.6,1.84,0.04,0.64,"Estimated from BS-VI HDV CI limits (g/kWh converted).[6, 7, 32, 33, 8]"
+217,Heavy & Articulated Vehicle,ARTICULATED VEHICLE,ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+218,Heavy & Articulated Vehicle,ARTICULATED VEHICLE,LNG,722,1.8,2,0.01,0.8,Estimated ~24% CO₂ reduction from Diesel HDV.
+219,Heavy & Articulated Vehicle,ARTICULATED VEHICLE,FUEL CELL HYDROGEN,0,0,0,0,0,Zero tailpipe emissions.
+220,Heavy & Articulated Vehicle,ARTICULATED VEHICLE,NOT APPLICABLE,0,0,0,0,0,Not an applicable fuel type.
+221,Heavy & Articulated Vehicle,ARTICULATED VEHICLE,CNG ONLY,850,4,2,0.02,1,Estimated based on HDV PI limits (g/kWh converted).
+222,Heavy & Articulated Vehicle,ARTICULATED VEHICLE,DUAL DIESEL/LNG,800,1.7,1.9,0.02,0.7,Estimated based on Diesel and LNG values.
+223,Heavy & Articulated Vehicle,ARTICULATED VEHICLE,PETROL,1050,4,1.8,0.04,0.7,Estimated based on HDV PI limits (g/kWh converted).
+224,Heavy & Articulated Vehicle,TRACTOR (COMMERCIAL),DIESEL,950,1.6,1.84,0.04,0.64,"Assumed same as Articulated Vehicle.[6, 7, 32, 33, 8]"
+225,Heavy & Articulated Vehicle,TRACTOR (COMMERCIAL),NOT APPLICABLE,0,0,0,0,0,Not an applicable fuel type.
+226,Heavy & Articulated Vehicle,TRACTOR (COMMERCIAL),PETROL,1050,4,1.8,0.04,0.7,"Assumed same as Articulated Vehicle PETROL.[6, 7, 8]"
+227,Heavy & Articulated Vehicle,TRACTOR (COMMERCIAL),ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+228,Heavy & Articulated Vehicle,PULLER TRACTOR,DIESEL,950,1.6,1.84,0.04,0.64,"Assumed same as Articulated Vehicle.[6, 7, 32, 33, 8]"
+229,Heavy & Articulated Vehicle,SEMI-TRAILER (COMMERCIAL),NOT APPLICABLE,0,0,0,0,0,Zero tailpipe emissions. Trailers are non-powered.
+230,Heavy & Articulated Vehicle,SEMI-TRAILER (COMMERCIAL),DIESEL,0,0,0,0,0,Zero tailpipe emissions. Trailers are non-powered; fuel type is a data anomaly.
+231,Heavy & Articulated Vehicle,TRACTOR-TROLLEY(COMMERCIAL),NOT APPLICABLE,0,0,0,0,0,Zero tailpipe emissions. Trolley is non-powered.
+232,Heavy & Articulated Vehicle,TRACTOR-TROLLEY(COMMERCIAL),DIESEL,1050,5,4.465,0.025,0.235,"Assumed tractor is Agricultural type, using TREM IV norms (g/kWh converted).[34, 35, 36, 37, 38, 39, 40]"
+233,Heavy & Articulated Vehicle,TRACTOR-TROLLEY(COMMERCIAL),PETROL/ETHANOL,1000,4,4.465,0.025,0.235,"Assumed tractor is Agricultural type, using TREM IV norms with adjustments.[34, 35, 36, 37, 38, 39, 40]"
+234,Heavy & Articulated Vehicle,DUMPER,DIESEL,1100,3.5,0.4,0.025,0.19,"Estimated from CEV Stage IV limits (g/kWh converted).[4, 41, 34, 42, 43, 44, 18]"
+235,Heavy & Articulated Vehicle,DUMPER,PETROL,1200,5,0.4,0.025,0.25,Estimated based on CEV PI engine limits.
+236,Heavy & Articulated Vehicle,DUMPER,CNG ONLY,1000,5,0.4,0.02,0.3,Estimated based on CEV PI engine limits.
+237,Heavy & Articulated Vehicle,DUMPER,NOT APPLICABLE,0,0,0,0,0,Not an applicable fuel type.
+238,Heavy & Articulated Vehicle,TRAILER (COMMERCIAL),NOT APPLICABLE,0,0,0,0,0,Zero tailpipe emissions. Trailers are non-powered.
+239,Heavy & Articulated Vehicle,TRAILER (COMMERCIAL),DIESEL,0,0,0,0,0,Zero tailpipe emissions. Trailers are non-powered; fuel type is a data anomaly.
+240,Construction & Industrial Equipment,CONSTRUCTION EQUIPMENT VEHICLE,DIESEL,1250,5,4.465,0.025,0.235,"Estimated from CEV Stage IV limits (g/kWh converted).[4, 41, 34, 42, 43, 44, 18]"
+241,Construction & Industrial Equipment,CONSTRUCTION EQUIPMENT VEHICLE,CNG ONLY,1150,5,4.465,0.02,0.235,Estimated based on CEV PI engine limits.
+242,Construction & Industrial Equipment,CONSTRUCTION EQUIPMENT VEHICLE,NOT APPLICABLE,0,0,0,0,0,Not an applicable fuel type.
+243,Construction & Industrial Equipment,CONSTRUCTION EQUIPMENT VEHICLE,PETROL,1350,5,4.465,0.025,0.235,Estimated based on CEV PI engine limits.
+244,Construction & Industrial Equipment,CONSTRUCTION EQUIPMENT VEHICLE,ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+245,Construction & Industrial Equipment,CONSTRUCTION EQUIPMENT VEHICLE (COMMERCIAL),DIESEL,1250,5,4.465,0.025,0.235,"Assumed same as non-commercial CEV.[4, 41, 34, 42, 43, 44, 18]"
+246,Construction & Industrial Equipment,CONSTRUCTION EQUIPMENT VEHICLE (COMMERCIAL),ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+247,Construction & Industrial Equipment,CONSTRUCTION EQUIPMENT VEHICLE (COMMERCIAL),CNG ONLY,1150,5,4.465,0.02,0.235,Assumed same as non-commercial CEV.
+248,Construction & Industrial Equipment,EARTH MOVING EQUIPMENT,DIESEL,1250,5,4.465,0.025,0.235,"Assumed same as CEV.[4, 41, 34, 42, 43, 44, 18]"
+249,Construction & Industrial Equipment,EARTH MOVING EQUIPMENT,NOT APPLICABLE,0,0,0,0,0,Not an applicable fuel type.
+250,Construction & Industrial Equipment,EARTH MOVING EQUIPMENT,CNG ONLY,1150,5,4.465,0.02,0.235,Assumed same as CEV CNG.
+251,Construction & Industrial Equipment,EXCAVATOR (NT),DIESEL,1250,5,4.465,0.025,0.235,"Assumed same as CEV.[4, 41, 34, 42, 43, 44, 18]"
+252,Construction & Industrial Equipment,EXCAVATOR (NT),ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+253,Construction & Industrial Equipment,EXCAVATOR (NT),NOT APPLICABLE,0,0,0,0,0,Not an applicable fuel type.
+254,Construction & Industrial Equipment,EXCAVATOR (NT),CNG ONLY,1150,5,4.465,0.02,0.235,Assumed same as CEV CNG.
+255,Construction & Industrial Equipment,EXCAVATOR (COMMERCIAL),DIESEL,1250,5,4.465,0.025,0.235,"Assumed same as CEV.[4, 41, 34, 42, 43, 44, 18]"
+256,Construction & Industrial Equipment,EXCAVATOR (COMMERCIAL),ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+257,Construction & Industrial Equipment,BULLDOZER,DIESEL,1300,5,4.465,0.025,0.235,"Assumed same as CEV, with slight CO₂ increase for higher load.[4, 41, 34, 42, 43, 44, 18]"
+258,Construction & Industrial Equipment,ROAD ROLLER,DIESEL,1200,5,4.465,0.025,0.235,"Assumed same as CEV.[4, 41, 34, 42, 43, 44, 18]"
+259,Construction & Industrial Equipment,CRANE MOUNTED VEHICLE,DIESEL,950,1.6,1.84,0.04,0.64,"Assumed same as HDV Diesel (BS-VI).[6, 7, 32, 33, 8]"
+260,Construction & Industrial Equipment,CRANE MOUNTED VEHICLE,CNG ONLY,850,4,2,0.02,1,Assumed same as HDV CNG.
+261,Construction & Industrial Equipment,CRANE MOUNTED VEHICLE,PETROL,1050,4,1.8,0.04,0.7,Assumed same as HDV Petrol.
+262,Construction & Industrial Equipment,CRANE MOUNTED VEHICLE,PETROL/CNG,850,4,2,0.02,1,Assumed same as CNG ONLY.
+263,Construction & Industrial Equipment,CRANE MOUNTED VEHICLE,NOT APPLICABLE,0,0,0,0,0,Not an applicable fuel type.
+264,Construction & Industrial Equipment,CRANE MOUNTED VEHICLE,PETROL/HYBRID,840,3.2,1.44,0.03,0.56,Estimated as 20% reduction from Petrol Crane.
+265,Construction & Industrial Equipment,CRANE MOUNTED VEHICLE,ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+266,Construction & Industrial Equipment,CRANE MOUNTED VEHICLE,DUAL DIESEL/CNG,850,4,2,0.02,1,Data Anomaly: Assumed same as CNG ONLY.
+267,Construction & Industrial Equipment,FORK LIFT,DIESEL,1250,5,4.465,0.025,0.235,"Assumed same as CEV Diesel.[4, 41, 34, 42, 43, 44, 18]"
+268,Construction & Industrial Equipment,FORK LIFT,PETROL,1350,5,4.465,0.025,0.235,Assumed same as CEV Petrol.
+269,Construction & Industrial Equipment,FORK LIFT,PETROL/ETHANOL,1320,4,4.465,0.025,0.235,"Estimated ~20% CO/HC reduction from Petrol Fork Lift.[9, 10, 11, 12, 13]"
+270,Construction & Industrial Equipment,FORK LIFT,PETROL/CNG,1150,5,4.465,0.02,0.235,Assumed same as CEV CNG.
+271,Construction & Industrial Equipment,FORK LIFT,PETROL/HYBRID,1080,4,4.465,0.02,0.235,Estimated as 20% reduction from Petrol Fork Lift.
+272,Construction & Industrial Equipment,FORK LIFT,ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+273,Construction & Industrial Equipment,VEHICLE FITTED WITH RIG,DIESEL,950,1.6,1.84,0.04,0.64,"Assumed same as HDV Diesel (BS-VI).[6, 7, 32, 33, 8]"
+274,Construction & Industrial Equipment,VEHICLE FITTED WITH RIG,NOT APPLICABLE,0,0,0,0,0,Not an applicable fuel type.
+275,Construction & Industrial Equipment,TOWER WAGON,DIESEL,950,1.6,1.84,0.04,0.64,"Assumed same as HDV Diesel (BS-VI).[6, 7, 32, 33, 8]"
+276,Agricultural Vehicle,AGRICULTURAL TRACTOR,DIESEL,1050,5,4.465,0.025,0.235,"Estimated from TREM Stage IV limits (>50 HP, g/kWh converted).[34, 35, 36, 37, 38, 39, 40]"
+277,Agricultural Vehicle,AGRICULTURAL TRACTOR,ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+278,Agricultural Vehicle,AGRICULTURAL TRACTOR,NOT APPLICABLE,0,0,0,0,0,Not an applicable fuel type.
+279,Agricultural Vehicle,AGRICULTURAL TRACTOR,PETROL,1150,5,4.465,0.025,0.235,Estimated based on TREM PI engine limits.
+280,Agricultural Vehicle,AGRICULTURAL TRACTOR,PETROL/CNG,1050,5,4.465,0.02,0.235,Estimated based on TREM PI engine limits.
+281,Agricultural Vehicle,AGRICULTURAL TRACTOR,PETROL/ETHANOL,1120,4,4.465,0.025,0.235,"Estimated ~20% CO/HC reduction from Petrol Tractor.[9, 10, 11, 12, 13]"
+282,Agricultural Vehicle,AGRICULTURAL TRACTOR,CNG ONLY,1050,5,4.465,0.02,0.235,Estimated based on TREM PI engine limits.
+283,Agricultural Vehicle,AGRICULTURAL TRACTOR,PETROL/LPG,1100,5,4.465,0.022,0.235,"Estimated based on TREM PI engine limits with adjustments for LPG.[14, 15, 16, 17, 12, 18]"
+284,Agricultural Vehicle,HARVESTER,DIESEL,1250,5,4.465,0.025,0.235,"Assumed same as CEV.[4, 41, 34, 42, 43, 44, 18]"
+285,Agricultural Vehicle,HARVESTER,NOT APPLICABLE,0,0,0,0,0,Not an applicable fuel type.
+286,Agricultural Vehicle,POWER TILLER,PETROL,50,1.2,0.08,0.0045,0.15,Estimated based on small engine category.
+287,Agricultural Vehicle,POWER TILLER,PETROL/CNG,45,1.4,0.09,0.001,0.2,Estimated based on petrol values with adjustments for CNG.
+288,Agricultural Vehicle,POWER TILLER,DIESEL,60,0.6,0.1,0.005,0.12,Estimated based on small engine category.
+289,Agricultural Vehicle,TRAILER (AGRICULTURAL),NOT APPLICABLE,0,0,0,0,0,Zero tailpipe emissions. Trailers are non-powered.
+290,Agricultural Vehicle,TRAILER (AGRICULTURAL),DIESEL,0,0,0,0,0,Zero tailpipe emissions. Trailers are non-powered; fuel type is a data anomaly.
+291,Agricultural Vehicle,TRAILER (AGRICULTURAL),PETROL,0,0,0,0,0,Zero tailpipe emissions. Trailers are non-powered; fuel type is a data anomaly.
+292,Agricultural Vehicle,TRAILER (AGRICULTURAL),ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions. Trailers are non-powered; fuel type is a data anomaly.
+293,Agricultural Vehicle,TRAILER (AGRICULTURAL),ETHANOL,0,0,0,0,0,Zero tailpipe emissions. Trailers are non-powered; fuel type is a data anomaly.
+294,Special & Emergency Vehicle,AMBULANCE,DIESEL,139.86,0.5,0.1615,0.0045,0.0085,"Assumed same as Light-Duty Diesel Van (BS-VI).[19, 20, 21, 22, 23, 24, 25]"
+295,Special & Emergency Vehicle,AMBULANCE,PETROL,113.79,1,0.06,0.0045,0.1,"Assumed same as Light-Duty Petrol Van (BS-VI).[19, 20, 21, 22, 23, 24, 25]"
+296,Special & Emergency Vehicle,AMBULANCE,PETROL/HYBRID,91.03,0.8,0.05,0.004,0.08,Estimated as 20% reduction from Petrol Ambulance.
+297,Special & Emergency Vehicle,AMBULANCE,PETROL/CNG,101.59,1.02,0.03,0.001,0.19,"Assumed same as Light-Duty CNG Van.[4, 5]"
+298,Special & Emergency Vehicle,AMBULANCE,CNG ONLY,101.59,1.02,0.03,0.001,0.19,"Assumed same as Light-Duty CNG Van.[4, 5]"
+299,Special & Emergency Vehicle,AMBULANCE,PETROL/LPG,138,1.5,0.1,0.005,0.15,"Assumed same as Light-Duty LPG Van.[26, 14, 15, 16, 17, 12, 18]"
+300,Special & Emergency Vehicle,ANIMAL AMBULANCE,DIESEL,139.86,0.5,0.1615,0.0045,0.0085,Assumed same as Ambulance DIESEL.
+301,Special & Emergency Vehicle,ANIMAL AMBULANCE,CNG ONLY,101.59,1.02,0.03,0.001,0.19,Assumed same as Ambulance CNG.
+302,Special & Emergency Vehicle,ANIMAL AMBULANCE,PETROL,113.79,1,0.06,0.0045,0.1,Assumed same as Ambulance PETROL.
+303,Special & Emergency Vehicle,ANIMAL AMBULANCE,PETROL/CNG,101.59,1.02,0.03,0.001,0.19,Assumed same as Ambulance PETROL/CNG.
+304,Special & Emergency Vehicle,MOBILE CLINIC,DIESEL,139.86,0.5,0.1615,0.0045,0.0085,Assumed same as Ambulance DIESEL.
+305,Special & Emergency Vehicle,MOBILE CLINIC,CNG ONLY,101.59,1.02,0.03,0.001,0.19,Assumed same as Ambulance CNG.
+306,Special & Emergency Vehicle,MOBILE CLINIC,PETROL,113.79,1,0.06,0.0045,0.1,Assumed same as Ambulance PETROL.
+307,Special & Emergency Vehicle,FIRE TENDERS,DIESEL,950,1.6,1.84,0.04,0.64,"Assumed same as Heavy-Duty Diesel Truck (BS-VI).[6, 7, 32, 33, 8]"
+308,Special & Emergency Vehicle,FIRE FIGHTING VEHICLE,DIESEL,950,1.6,1.84,0.04,0.64,"Assumed same as Heavy-Duty Diesel Truck (BS-VI).[6, 7, 32, 33, 8]"
+309,Special & Emergency Vehicle,SNORKED LADDERS,DIESEL,950,1.6,1.84,0.04,0.64,"Assumed same as Heavy-Duty Diesel Truck (BS-VI).[6, 7, 32, 33, 8]"
+310,Special & Emergency Vehicle,RECOVERY VEHICLE,DIESEL,950,1.6,1.84,0.04,0.64,"Assumed same as Heavy-Duty Diesel Truck (BS-VI).[6, 7, 32, 33, 8]"
+311,Special & Emergency Vehicle,RECOVERY VEHICLE,CNG ONLY,850,4,2,0.02,1,Assumed same as Heavy-Duty CNG Truck.
+312,Special & Emergency Vehicle,RECOVERY VEHICLE,PETROL,1050,4,1.8,0.04,0.7,Assumed same as Heavy-Duty Petrol Truck.
+313,Special & Emergency Vehicle,RECOVERY VEHICLE,ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+314,Special & Emergency Vehicle,RECOVERY VEHICLE,DUAL DIESEL/CNG,850,4,2,0.02,1,Data Anomaly: Assumed same as CNG ONLY.
+315,Special & Emergency Vehicle,TOW TRUCK,DIESEL,950,1.6,1.84,0.04,0.64,"Assumed same as Heavy-Duty Diesel Truck (BS-VI).[6, 7, 32, 33, 8]"
+316,Special & Emergency Vehicle,TOW TRUCK,CNG ONLY,850,4,2,0.02,1,Assumed same as Heavy-Duty CNG Truck.
+317,Special & Emergency Vehicle,TOW TRUCK,PETROL,1050,4,1.8,0.04,0.7,Assumed same as Heavy-Duty Petrol Truck.
+318,Special & Emergency Vehicle,HEARSES,DIESEL,139.86,0.5,0.1615,0.0045,0.0085,Assumed same as LCV Diesel.
+319,Special & Emergency Vehicle,HEARSES,PETROL,113.79,1,0.06,0.0045,0.1,Assumed same as LCV Petrol.
+320,Special & Emergency Vehicle,HEARSES,CNG ONLY,101.59,1.02,0.03,0.001,0.19,Assumed same as LCV CNG.
+321,Special & Emergency Vehicle,HEARSES,PETROL/CNG,101.59,1.02,0.03,0.001,0.19,Assumed same as CNG ONLY.
+322,Special & Emergency Vehicle,TREE TRIMMING VEHICLE,DIESEL,950,1.6,1.84,0.04,0.64,"Assumed same as Heavy-Duty Diesel Truck (BS-VI).[6, 7, 32, 33, 8]"
+323,Special & Emergency Vehicle,ARMOURED/SPECIALISED VEHICLE,DIESEL,1050,1.8,2,0.05,0.7,Estimated ~10% increase from HDV due to weight/armoring.
+324,Special & Emergency Vehicle,ARMOURED/SPECIALISED VEHICLE,PETROL,1150,4.4,2,0.05,0.8,Estimated ~10% increase from HDV due to weight/armoring.
+325,Special & Emergency Vehicle,ADAPTED VEHICLE,PETROL,113.79,1,0.06,0.0045,0.1,"Assumed same as base Petrol Car (BS-VI).[19, 20, 21, 22, 23, 24, 25]"
+326,Special & Emergency Vehicle,ADAPTED VEHICLE,PETROL/ETHANOL,111.5,0.8,0.06,0.0045,0.08,"Assumed same as base Petrol/Ethanol Car.[9, 10, 11, 12, 13]"
+327,Special & Emergency Vehicle,ADAPTED VEHICLE,PETROL/HYBRID,91.03,0.8,0.05,0.004,0.08,Assumed same as base Petrol/Hybrid Car.
+328,Special & Emergency Vehicle,ADAPTED VEHICLE,DIESEL,139.86,0.5,0.1615,0.0045,0.0085,"Assumed same as base Diesel Car (BS-VI).[19, 20, 21, 22, 23, 24, 25]"
+329,Special & Emergency Vehicle,ADAPTED VEHICLE,PETROL/CNG,101.59,1.02,0.03,0.001,0.19,"Assumed same as base Petrol/CNG Car.[4, 5]"
+330,Special & Emergency Vehicle,ADAPTED VEHICLE,ELECTRIC(BOV),0,0,0,0,0,Zero tailpipe emissions.
+331,Special & Emergency Vehicle,ADAPTED VEHICLE,NOT APPLICABLE,0,0,0,0,0,Not an applicable fuel type.
+332,Special & Emergency Vehicle,ADAPTED VEHICLE,DIESEL/HYBRID,111.89,0.4,0.133,0.004,0.007,Assumed same as base Diesel/Hybrid Car.
+333,Special & Emergency Vehicle,ADAPTED VEHICLE,PETROL/LPG,138,1.5,0.1,0.005,0.15,"Assumed same as base Petrol/LPG Car.[26, 14, 15, 16, 17, 12, 18]"
