@@ -46,7 +46,7 @@ Investigates the physical impact of air pollution by tracking total illness case
 ### Page 4: Demographic Correlation View
 Examines how population size and growth impact air quality. This page features state-level population tables and two key scatter plots: one correlating 2024 population sizes with average AQI, and another forecasting regional population growth percentages from 2025 to 2036.
 <br>
-<img width="632" height="351" alt="4" src="https://github.com/user-attachments/assets/20fdfa0e-4c9d-4869-b8be-741cce31a488" />
+<img width="1272" height="726" alt="4" src="https://github.com/user-attachments/assets/20fdfa0e-4c9d-4869-b8be-741cce31a488" />
 
 ### Page 5: Vehicle Emissions View
 Compares the adoption of green vehicles against traditional polluting vehicles across India. This dashboard features a state-by-state comparison table, a regional heat map displaying green vehicle density, and a bar chart ranking the top 10 states leading in eco-friendly transportation.
